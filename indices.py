@@ -11,7 +11,6 @@ stats = []
 for ticker in tickers:
 	url = 'https://www.cnbc.com/quotes/?symbol=.'+ticker
 	soup = get_soup(url)
-	print('processing %s' % (ticker))
 	price = soup.find(itemprop = 'price').get('content')
 	price_chng = soup.find(itemprop = 'priceChange').get('content')
 	price_pct = soup.find(itemprop = 'priceChangePercent').get('content')
