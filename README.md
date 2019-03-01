@@ -4,18 +4,18 @@ Market reports and other stuff
 Title your scrapers appropriately
 
 ### Necessary Packages
-bs4
-urllib
-pandas-datareader
-pandas >=0.19.2
-lxml
-requests >=2.3.0
-requests-fole
-requests-ftp
-wrapt
+bs4 <br />
+urllib <br />
+pandas-datareader <br />
+pandas >=0.19.2 <br />
+lxml <br />
+requests >=2.3.0 <br />
+requests-fole <br />
+requests-ftp <br />
+wrapt <br />
 
 ##### DOCS BUILDING FOR PANDAS DATAREADER
-matplotlib
-ipython
-sphinx
-sphinx_rtd_theme
+matplotlib <br />
+ipython <br />
+sphinx <br />
+sphinx_rtd_theme <br />
